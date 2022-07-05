@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"content="width=device-width,initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<div class="mx-auto  bg-yellow-200">
+    <div class="mb-3 space-y-2 text-center">
+        <p class="sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-red-500  hover:underline">Movimiento Rectilineo Uniforme</p>
+      </div>
+<body>
+
+<!-- background -->
+<div class="mx-auto  bg-yellow-300">
+  <div class=" px-20 py-10 mx-auto">
+        
+   <!--content body-->
+    <div class="mb-5 space-y-2 text-center">
+        <p class="sm:text-3xl md:text-3xl lg:text-3xl xl:text-4xl font-bold text-blue-400  hover:underline">Formulas de Movimiento Rectilineo Uniforme </p>
+      </div>
+    <!-- Carousel-->
+    <div class="max-w-2xl mx-auto">
+
+        <div id="default-carousel" class="relative" data-carousel="static">
+            <!-- Carousel wrapper -->
+            <div class="overflow-hidden relative h-56 rounded-lg sm:h-64 xl:h-80 2xl:h-96">
+                <!-- Item 1 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <span class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800"></span>
+                    <img src="https://calculadoradefisica.online/imagenes/formuladistancia.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+                <!-- Item 2 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://calculadoradefisica.online/imagenes/formulavelocidad.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+                <!-- Item 3 -->
+                <div class="hidden duration-700 ease-in-out" data-carousel-item>
+                    <img src="https://calculadoradefisica.online/imagenes/formulatiempo.svg" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                </div>
+            </div>
+            <!-- Slider indicators -->
+            <div class="flex absolute bottom-5 left-1/2 z-30 space-x-3 -translate-x-1/2">
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+                <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            </div>
+            <!-- Slider controls -->
+            <button type="button" class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-prev>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
+                    <span class="hidden">Previous</span>
+                </span>
+            </button>
+            <button type="button" class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none" data-carousel-next>
+                <span class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+                    <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    <span class="hidden">Next</span>
+                </span>
+            </button>
+        </div>
+        <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    </div>
+          <p class="mt-2 p-4 text-black-700 font-bold text-justify">En la práctica científica se tiende a considerar
+            situaciones simplificadas de los fenómenos, para, una
+            vez comprendidas, introducir variables que las
+            aproximen más a la realidad. En esta línea, el
+            movimiento de un objeto está condicionado por su
+            interacción (rozamiento, acción de un motor,
+            gravedad, fuerzas eléctricas … ) con el resto de objetos
+            del Universo, los cuales, con más o menos intensidad
+            le comunican una aceleración que perturba su camino.
+            Pero, ¿cómo sería el movimiento de un objeto
+            completamente aislado, o simplemente se anularan
+            todas las interacciones que actúan sobre él?
+            <p class="mt-2 p-4 text-black-700 font-bold text-justify">Las fórmulas del movimiento rectilíneo uniforme contempla tres incógnitas:
+            Velocidad constante (V), Distancia (d) y Tiempo (t).
+            La fórmula principal teniendo de incógnita 
+            la velocidad constante es la siguiente:
+            Para resolver las fórmulas del movimiento rectilíneo uniforme se debe convertir las unidades al Sistema Internacional (S.I.)
+            siendo las siguientes para cada factor:
+            Velocidad, rapidez, celeridad o módulo: metros por segundo (m/s)
+            Distancia: metros (m)
+            Tiempo: segundos (s).
+     
+</div>
+<h1 class="mt-2 p-4 text-blue-700 font-bold text-xl hover:underline">Contenido Adicional</h1>
+<div class="max-w-7xl mx-auto px-5 mb-3">
+<div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+
+
+<div class="grid grid-cols-12 col-span-12 gap-7">
+<div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+    <a href="http://www.profisica.cl/files/conceptos/mru.pdf" class="block transition duration-200 ease-out transform hover:scale-110">
+        <img class="object-cover w-full shadow-sm h-full" src="http://wintablet.info/wp-content/uploads/2018/08/libroPDF.jpg">
+    </a>
+    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+        <div class="bg-indigo-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+            <span>Libro</span>
+        </div>
+        <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="http://www.profisica.cl/files/conceptos/mru.pdf">Movimiento Rectilineo Uniforme (MRU)</a></h2>
+        <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your application using facebook.</p> -->
+    </div>
+</div>
+
+<div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+    <a href="https://www.geogebra.org/m/mcNKdKVy" class="block transition duration-200 ease-out transform hover:scale-110">
+        <img class=" object-center object-cover w-full shadow-sm h-full" src="https://www.fisicalab.com/sites/all/files/contenidos/intromov/grafica_x-t_mru.png" >
+    </a>
+    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+        <div class="bg-red-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+            <span>Graficadora</span>
+        </div>
+        <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="https://www.geogebra.org/m/mcNKdKVy">Movimiento Rectilineo Uniforme (GeoGebra)</a></h2>
+        <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your web application by sending secure links to their email box.</p> -->
+    </div>
+</div>
+
+<div class="flex flex-col items-start col-span-12 overflow-hidden shadow-sm rounded-xl md:col-span-6 lg:col-span-4">
+    <a href="https://www.youtube.com/watch?v=5-4DVxeQZb8" class="block transition duration-200 ease-out transform hover:scale-110">
+        <img class="object-cover w-full shadow-sm h-full" src="https://as01.epimg.net/meristation/imagenes/2019/11/12/betech/1573554822_627666_1573555077_noticia_normal_recorte1.jpg">
+    </a>
+    <div class="relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl">
+        <div class="bg-purple-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block">
+            <span>Video</span>
+        </div>
+        <h2 class="text-base text-gray-500 font-bold sm:text-lg md:text-xl"><a href="https://www.youtube.com/watch?v=5-4DVxeQZb8">Movimiento Rectilineo Uniforme (Teoría)</a></h2>
+        <!-- <p class="mt-2 text-sm text-gray-500">Learn how to authenticate users to your application using flask and mysql db.</p> -->
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+        <!-- Pie de Página -->
+        <div class="bg-yellow-200 mx-auto text-black-700 font-bold text-xl text-center">Tenorio Oscar</div>
+</div>
+</body>
+</html>
